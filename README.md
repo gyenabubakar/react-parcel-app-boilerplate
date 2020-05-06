@@ -1,6 +1,6 @@
 # react-parcel-app-boilerplate
 
-These are starter files for creating a React app using [Parcel](https://parceljs.org/), the zero-configuration JavaScript application bundler.
+These are starter files for creating a React app using [Parcel](https://parceljs.org/), the zero-configuration web application bundler.
 
 ---
 
