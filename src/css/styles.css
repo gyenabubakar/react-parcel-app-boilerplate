@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 !important;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App {
+  width: 30%;
+  box-sizing: border-box;
+  text-align: center;
+  align-self: center;
+}
+
+.App img {
+  max-width: 100%;
+}

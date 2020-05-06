@@ -1,0 +1,30 @@
+{
+  "name": "react-parcel-app-boilerplate",
+  "version": "0.0.1",
+  "description": "Starter files for quickly creating a React app using Parcel.",
+  "main": "index.jsx",
+  "scripts": {
+    "dev": "parcel public/index.html --out-dir dev -p 3000 --open",
+    "clean-dev": "rm -rf ./dev && rm -rf ./.cache",
+    "build": "rm -rf ./build && parcel build public/index.html --out-dir build --public-url ./"
+  },
+  "keywords": [
+    "react and parcel",
+    "react-parcel boilerplate",
+    "react-parcel starter files"
+  ],
+  "author": "Gyen Abubakar (https://github.com/gyenabubakar)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "parcel-bundler": "^1.12.4",
+    "regenerator-runtime": "^0.13.5"
+  }
+}
