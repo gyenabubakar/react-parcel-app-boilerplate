@@ -24,7 +24,7 @@ npm install
 To spin up a local development server for your React application, run:
 
 ```
-npm run dev
+npm start
 ```
 
 This will start up a development server on `localhost:3000` and automatically open your default browser.
